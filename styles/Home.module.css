@@ -1,11 +1,9 @@
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -33,9 +31,8 @@
   flex-grow: 1;
 }
 
-.title a {
+.titleBlue {
   color: #0070f3;
-  text-decoration: none;
 }
 
 .title a:hover,
@@ -106,6 +103,9 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+.inlineBlock {
+  display: inline;
 }
 
 .logo {
