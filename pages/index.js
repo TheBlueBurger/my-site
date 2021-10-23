@@ -15,11 +15,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Hello, I am <span className={styles.titleBlue}>TheBlueBurger</span>!
         </h1>
-
         <p className={styles.description}>
-          <code className={styles.code}>I program in JS/TS and Golang</code>
+          <code className={styles.code}>I&apos;m a coder that codes in in JS/TS and Golang!</code>
         </p>
-
         <div className={styles.grid}>
           <a href="https://github.com/TheBlueBurger" className={styles.card}>
             <h2>Github &rarr;</h2>
@@ -27,19 +25,20 @@ export default function Home() {
           </a>
 
           <Link href="/projects">
-            <a className={styles.inlineBlock, styles.card}>
-                <h2>My Projects &rarr;</h2>
-                <p>My projects can be found here.</p>
+            <a className={styles.inlineBlock + " " + styles.card}>
+              <h2>My Projects &rarr;</h2>
+              <p>My projects can be found here.</p>
             </a>
           </Link>
 
-          <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className={styles.card}
-          >
-            <h2>Contact me &rarr;</h2>
-            <p>Contact me here.</p>
-          </a>
+          <Link href="/contact">
+            <a
+              className={styles.card}
+            >
+              <h2>Contact me &rarr;</h2>
+              <p>Contact me here.</p>
+            </a>
+          </Link>
         </div>
       </main>
     </div>
