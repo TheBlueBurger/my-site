@@ -5,7 +5,7 @@ import NavBarStyles from "../styles/NavBar.module.css";
 export default function NavbarButton({ href, name }) {
     const router = useRouter();
     return (
-        <div className={NavBarStyles.button + " " + (router.pathname == href ? NavBarStyles.Active : "")}>
+        <div className={NavBarStyles.button + " " + (router.pathname === href ? NavBarStyles.Active : "")}>
             <Link href={href}>
                 <a>{name}</a>
             </Link>

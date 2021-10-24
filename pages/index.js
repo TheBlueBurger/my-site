@@ -1,3 +1,5 @@
+// noinspection HtmlUnknownTarget
+
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
@@ -16,10 +18,10 @@ export default function Home() {
           Hello, I am <span className={styles.titleBlue}>TheBlueBurger</span>!
         </h1>
         <p className={styles.description}>
-          <code className={styles.code}>I&apos;m a coder that codes in in JS/TS and Golang!</code>
+          <span className={styles.descriptiontext}>I&apos;m a coder that codes in in JS/TS and Golang!</span>
         </p>
         <div className={styles.grid}>
-          <a href="https://github.com/TheBlueBurger" className={styles.card}>
+          <a href="https://github.com/TheBlueBurger" className={styles.card} target="_blank" rel="noreferrer">
             <h2>Github &rarr;</h2>
             <p>Check out my Github!</p>
           </a>

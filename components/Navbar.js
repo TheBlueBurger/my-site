@@ -3,7 +3,7 @@ import NavbarButton from "./NavBarButton"
 export default function Navbar() {
     return (
         <>
-            {navBarItems.map(item => <NavbarButton href={item.href} name={item.name} key={item.name}></NavbarButton>)}
+            {navBarItems.map(item => <NavbarButton href={item.href} name={item.name} key={item.name} />)}
         </>
     )
 }

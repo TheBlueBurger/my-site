@@ -1,31 +1,29 @@
 .contactdialog {
     background-color: rgb(22, 28, 36);
     padding:10px;
-    border: 0px white solid;
+    border: 0 white solid;
     border-radius: 10px;
     max-width: 400px;
-    margin: aut 
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
 }
 .contactdialog button {
     background-color: #0099FF;
-    border: 0px white solid;
+    border: 0 white solid;
     border-radius: 10px;
-    padding: 5px;
-    padding-left:10px;
-    padding-right:10px;
+    padding: 5px 10px;
     margin: auto;
     display:block;
     cursor: pointer;
     transition: .1s background-color ease, .3s padding-left ease, .3s padding-right ease;
 }
-/* gtg */
 .contactdialog button:hover {
     background-color: #FFFFFF;
-    border: 0px white solid;
+    border: 0 white solid;
     border-radius: 10px;
-    padding: 5px;
-    padding-left:20px;
-    padding-right:20px;
+    padding: 5px 20px;
     margin: auto;
     display:block;
     cursor: pointer;

@@ -1,10 +1,8 @@
-import {useRouter} from "next/router"
 import styles from "../styles/Contact.module.css"
 import Head from "next/head";
 
 export default function Contact() {
-    let router = useRouter();
-    return <>
+  return <>
       <Head>
         <title>Contact me</title>
       </Head>
@@ -12,6 +10,7 @@ export default function Contact() {
             <button onClick={() => {
                 window.open("mailto:burger@duck.com")
             }}>Email</button>
+          <span>Discord: TheBlueBurger#1499</span>
         </div>
     </>
 }
