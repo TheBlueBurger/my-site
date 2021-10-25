@@ -18,7 +18,7 @@ export default function Home() {
           Hello, I am <span className={styles.titleBlue}>TheBlueBurger</span>!
         </h1>
         <p className={styles.description}>
-          <span className={styles.descriptiontext}>I&apos;m a coder that codes in in JS/TS and Golang!</span>
+          <span className={styles.descriptiontext}>I&apos;m a coder that codes in JS/TS and Golang!</span>
         </p>
         <div className={styles.grid}>
           <a href="https://github.com/TheBlueBurger" className={styles.card} target="_blank" rel="noreferrer">
