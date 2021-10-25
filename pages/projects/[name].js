@@ -10,21 +10,17 @@ export default function Project({project}) {
   </>
 }
 
-export async function getStaticProps({ params }) {
-  return {
-    props: {
-      project: Projects.find(a => a.id === params.name)
+export async function getServerSideProps({ params }) {
+  let project = Projects.find(a => a.id === params.name);
+  if(!project) return {
+    redirect: {
+      destination: "/projects",
+      permanent: false
     }
   }
-}
-
-export async function getStaticPaths() {
-    return {
-        paths: Projects.map(a => ({
-          params: {
-            name: a.id
-          }
-        })),
-        fallback: false
+  return {
+    props: {
+      project: project
     }
+  }
 }
