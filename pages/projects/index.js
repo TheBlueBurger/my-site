@@ -1,9 +1,10 @@
 import styles from "../../styles/Projects.module.css"
 import Link from "next/link";
 import Image from "next/image"
-import ProjectList from "../../components/projects"
 import Head from "next/head";
+import {getProjects} from "../api/projects";
 export default function Projects() {
+  let ProjectList = getProjects();
     return (<>
       <Head>
         <title>My projects</title>

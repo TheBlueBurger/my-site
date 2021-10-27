@@ -1,4 +1,4 @@
-import Projects from "../../components/projects";
+import {getProject} from "../api/projects";
 import Head from "next/head";
 
 export default function Project({project}) {
@@ -11,7 +11,8 @@ export default function Project({project}) {
 }
 
 export async function getServerSideProps({ params }) {
-  let project = Projects.find(a => a.id === params.name);
+  let project = getProject(params.name)
+  console.log(params.name)
   if(!project) return {
     redirect: {
       destination: "/projects",
