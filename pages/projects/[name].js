@@ -12,7 +12,7 @@ export default function Project({ project }) {
       <h1>{project.name}</h1>
       <p>{project.description}</p>
       {project.link && <div className={styles.Link}>
-        <Link href={project.link}><a>Download</a></Link>
+        <Link href={project.link}><a target="_blank">Download</a></Link>
       </div>}
     </>}
     {!project && <>Project not found????????? This should never happen</>}
