@@ -21,6 +21,7 @@ export default function Projects() {
                 </Link>
             )
         })}*/
-            Work in progress (totally not because i have nothing to add)
+            <p>Work in progress</p>
+            <p>Totally not because I have nothing to add here</p>
     </>)
 }
