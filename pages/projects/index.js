@@ -9,7 +9,7 @@ export default function Projects() {
       <Head>
         <title>My projects</title>
       </Head>
-        /*{ProjectList.map(project => {
+        {/* ProjectList.map(project => {
             return (
                 <Link href={"/projects/" + project.id} key={project.id}>
                     <a>
@@ -20,8 +20,8 @@ export default function Projects() {
                     </a>
                 </Link>
             )
-        })}*/
+        })*/}
             <p>Work in progress</p>
-            <p>Totally not because I have nothing to add here</p>
+            <p>(Totally not because I have nothing to add here)</p>
     </>)
 }
