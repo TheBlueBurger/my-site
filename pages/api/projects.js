@@ -1,10 +1,10 @@
 let Projects = [
   {
-    "name": "SaladBind",
-    "description": "Choose your Salad miner, algorithm and pool using a simple UI!",
-    "id": "saladbind",
-    "img": "/saladbind.png",
-    "link": "https://github.com/VukkyLtd/SaladBind#readme"
+    "name": "None",
+    "description": "Literally nothing",
+    "id": "nothing",
+    "img": "/favicon.ico",
+    "link": "//theblueburger.software"
   }
 ];
 
