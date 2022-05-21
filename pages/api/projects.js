@@ -4,7 +4,7 @@ let Projects = [
     "description": "Literally nothing",
     "id": "nothing",
     "img": "/favicon.ico",
-    "link": "//theblueburger.software"
+    "link": "/"
   }
 ];
 
