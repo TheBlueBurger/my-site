@@ -11,7 +11,7 @@ export default function Contact() {
             <button onClick={() => {
                 window.open("mailto:burger@duck.com")
             }}>Email</button>
-          <span>Discord: TheBlueBurger#1499 (Friend requests temporary closed)</span><br />
+          <span>Discord: TheBlueBurger#1499</span><br />
           <Link href="https://matrix.to/#/@theblueburger:matrix.org"><a>Matrix: @theblueburger:matrix.org</a></Link>
         </div>
     </>
